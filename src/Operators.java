@@ -51,6 +51,13 @@ public class Operators {
         System.out.println(h);
         System.out.println(--h);
 
+// <<
+        //>>
+        System.out.println("---------");
+        System.out.println(5<<2); //5*2=10 //left shift
+
+        System.out.println("------"); // right shift
+        System.out.println(6>>2); // 6/2= 3
 
 
 
