@@ -7,7 +7,7 @@ public class Operators {
         //increment or decrement operators
 
         //add//sub//multi//div
-      /*  int a=5;
+       int a=5;
         int b=9;
         System.out.println(a>b);//greater
         System.out.println(a<b);//lesser
@@ -32,20 +32,24 @@ public class Operators {
 
        // 1001 , 1100  => decimal number
 //
-*/
 
-        int a =5;
-        /*System.out.println(a);
-        a=a+1; // a++
-        System.out.println(a);*/
+
+        int e =5;
+        System.out.println(a);
+        e=e+1; // a++
+        System.out.println(a);
 
         System.out.println(a++);
         System.out.println(a); // increment operation // last
 
         System.out.println("pre increment: "+ ++a); // first it will do the increment operatio
 
-
-
+        System.out.println("----------");
+//decrement
+        int h = 6;
+        System.out.println(h--);
+        System.out.println(h);
+        System.out.println(--h);
 
 
 
