@@ -1,0 +1,46 @@
+constructor:
+
+=> special method or function
+=> public static void main(){
+ //access specifier
+//return type
+
+}
+
+c
+
+class A{
+
+A(){ // constructor
+// same name as the class name
+// return type
+// always public
+// initialisation purpose
+// automatic calling
+
+}
+
+}
+
+
+class demo{
+
+private int age;
+private String name;
+
+demo(int a , String s){
+age =a;
+name=s;
+
+
+}
+psvm(){
+   demo d = new demo(23,"robin");
+demo d1 = new demo(24,"alex");
+d.fun();
+}
+void fun(){
+
+}
+
+}
