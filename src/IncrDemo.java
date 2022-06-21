@@ -19,6 +19,6 @@ public class IncrDemo {
 
        // ++a; // pre increment
         // increment or decrement operators
-        // 1 add or 1 minus
+        // 1 add or 1 minu
     }
 }
