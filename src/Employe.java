@@ -17,8 +17,8 @@ public class Employe { // parent class, super class , base class
     public void setName(String str){
         this.ename=str;
     }
-    public void getSal(){
-        System.out.println(esal);
+    public int getSal(){
+       return esal;
     }
     public void setSal(int sal){
         this.esal=sal;
@@ -40,5 +40,11 @@ class Manager extends Employe{ // child class,sub class
     public void setBonus(int b){
         this.bonus=b;
     }
+    // method overriding
 
+
+    @Override // method overrding
+    public int getSal() {
+        return super.getSal()+bonus;
+    }
 }
