@@ -1,4 +1,4 @@
-public class Employe { // parent class, super class , base class
+public  class Employe { // parent class, super class , base class
     //inheritence => existing character transfers from parent to child
     private String ename;
     private int esal;
@@ -17,8 +17,8 @@ public class Employe { // parent class, super class , base class
     public void setName(String str){
         this.ename=str;
     }
-    public int getSal(){
-       return esal;
+    public  int getSal(){
+     return esal;
     }
     public void setSal(int sal){
         this.esal=sal;
@@ -40,11 +40,13 @@ class Manager extends Employe{ // child class,sub class
     public void setBonus(int b){
         this.bonus=b;
     }
+
+    @Override
+    public int getSal() {
+        return bonus;
+    }
     // method overriding
 
 
-    @Override // method overrding
-    public int getSal() {
-        return super.getSal()+bonus;
-    }
+
 }
