@@ -1,49 +1,44 @@
-public class User {
+public class User{
+       
+       private int id;
+       private String name;
 
-    public static void main(String[] args) {
-        Instagram_Signup logesh =  new Instagram_Signup(); // object creation
-       Instagram_Signup user2 =  new Instagram_Signup();
+	 public static void main(String[] args){
+           
+           User u1 = new User();
+           u1.id=1;
+          // u1.name="Ram";
 
-       /* logesh.name="logesh";
-        logesh.pass="abc123%6";
-        System.out.println(logesh.name);
-        System.out.println(logesh.pass);
-        logesh.name="Ari";
-        logesh.pass="ari@123";
-        System.out.println(logesh.name);
-        System.out.println(logesh.pass);*/
-        logesh.setName("logesh");
-        logesh.getName();
-       user2.setName("alex");
-        user2.getName();
+           Worker w1 = new Worker();
+           // getter and setter method
+           w1.setId(2); //calling
+           w1.setName("Raj");
+
+           System.out.println(w1.getName());
+           System.out.println(w1.getId());
 
 
 
-    }
+           
+	 }
 }
 
-class Instagram_Signup{
-   private String name;
-    private String pass;
+class Worker{
 
-    public void login(){
-        System.out.println("login successfully");
-    }
-    public void forgetpass(){
-        System.out.println("Pls enter your email address");
-        System.out.println("update your new pass: ");
-        System.out.println("updates successfully");
-    }
-    public void setName(String n){
-        name=n;
-    }
-    public void getName(){
-        System.out.println(name);
-    }
-    public void setpass(String n){
-        pass=n;
-    }
-    public void getpass(){
-        System.out.println(pass);
-    }
+	private int id;
+	private String name;
+
+public void setName(String name){
+	this.name=name;
+}
+public void setId(int id){
+	this.id=id;
+}
+public String getName(){
+	return name;
+}
+public int  getId(){
+	return id;
+}
+
 }
